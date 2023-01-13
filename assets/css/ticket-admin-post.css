@@ -1,0 +1,145 @@
+
+.reply-item {
+    position: relative;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px hoff voff blur #000;
+    -moz-box-shadow: 1px hoff voff blur #000;
+    box-shadow: 1px hoff voff blur #000;
+    padding: 2em;
+    margin: 0.5em;
+    width: 50%;
+    background-color: #cacaca14;
+}
+
+.reply-item .reply-date {
+    padding: 1em 0 0 0;
+    text-align: left;
+}
+
+.reply-item.user-reply{
+    float: left;
+    background-color: #5d5d5d14;
+}
+
+.reply-item.admin-reply{
+    float: right;
+}
+
+.reply-item.reply-history {
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center !important;
+}
+
+.reply-item.reply-histor .reply-date {
+    text-align: center
+}
+
+.ts-attachment-container {
+    padding: 1em;
+    background-color: #e4e4e4;
+    margin: 1em 0;
+    border: 1px solid silver;
+}
+
+.ts-attachment-container .ts-title {
+    font-weight: bold;
+
+}
+
+.ts-attachment-container input {
+    width: 100%;
+}
+
+.attachment-icon {
+    position: absolute;
+    width: 1rem;
+    background-color: #c8ff66;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    left: 0;
+    top: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.form-group {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem;
+}
+
+label.form-element {
+    font-weight: bold;
+}
+
+.form-element {
+    width: 100%;
+    display: block;
+}
+
+.note-item {
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.note-item .note-content {
+    border-right: 1px solid #ccc;
+    padding-right: 5px;
+}
+
+.ts-saved-replies {
+    padding: 1em;
+}
+
+.ts-setting #post-body {
+    padding: 0 10px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+.ts-setting #post-body-content {
+    position: relative;
+    float: none;
+}
+
+.ts-setting .major-publishing-actions {
+    clear: both;
+    padding: 10px 0;
+    line-height: 2.1;
+}
+
+#setting-item-header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0;
+}
+#setting-item-header {
+    padding: 0 10px;
+    background: #f5f5f5;
+}
+.ts-setting .menu-edit{
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04); }
+.ts-setting h3{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.ts-setting .submit {
+    padding: 0;
+    margin: 0;
+}
+#setting-item-footer {
+    background-color: #fff;
+    padding: 0 2em;
+}
+
+#report-query-submit{
+    margin: 0 1em;
+}
